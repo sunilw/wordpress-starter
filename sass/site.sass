@@ -55,7 +55,16 @@ body
     margin-right: auto
     margin-left: auto
     text-align: center
-
+    a
+      position: relative
+      margin-right: auto
+      margin-left: auto
+      display: inline-block
+      width: 60%
+      max-width: 180px
+      img
+        width: 100%
+      
 #homepage #identity
   @include outer-container
   position: relative
@@ -68,12 +77,14 @@ body
   padding-bottom: 24px
   h1
     font-weight: 300
-    line-height: 1.6
+    line-height: 1.2
     margin-bottom: 24px
+    text-align: center
   h2
-    line-height: 1.6
+    line-height: 1.2
     margin-right: 0 !important
     margin-left: 0  !important
+    text-align: center  !important
   p
     text-align: center
     a
@@ -102,7 +113,43 @@ body
     margin-bottom: 14px
     img
       height: 200px
-    
+
+#features
+  padding-top: 14px
+  padding-bottom: 14px
+  .feature
+    background-color: #c4c4c4
+    padding-top: 14px
+    padding-bottom: 14px
+    padding-left: 14px
+    padding-right: 14px
+    h3 
+      text-align: center      
+      padding: 2%
+  .icon
+    height: 80px
+    width: 80px
+    position: relative
+    margin-right: auto
+    margin-left: auto
+    margin-bottom: 14px
+    img
+      height: 100%
+      width: 100%
+  .cta-container
+    padding-top: 24px
+    text-align: center 
+  .cta
+    @include button(#ffba73)
+    margin-top: 14px
+    text-align: center
+    display: inline 
+    font-size: 1rem
+    text-decoration: none
+    letter-spacing: 1px
+    color: #fff
+    font-weight: 300 
+
 /***********************/
 /* page footer         */
 /***********************/
@@ -118,7 +165,7 @@ body
 /*   features          */
 /***********************/
 
-#homepage #featured-produts
+#homepage #featured-products
   background-color: #fff
   padding-top: 14px
   padding-bottom: 14px

@@ -11,9 +11,9 @@
 ?>
 <?php while ( have_posts() ) : the_post(); ?>
   <?php get_template_part( 'content', 'page' ); ?>
-  <article class="outer-container">
+  <div class="outer-container">
     <?php  //comments_template( '', true );
     wpf_comment_form() ;
     ?>
-  </article>
+  </div>
 <?php endwhile; // end of the loop. ?>
