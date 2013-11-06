@@ -1,0 +1,6 @@
+/* colours */
+
+$main : #000
+$dark : #380100
+$darkCompliment : #0B436B
+$lightCompliment: #0B5385

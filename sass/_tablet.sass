@@ -1,0 +1,126 @@
+/* styles for tablet and larger */
+
+/* todo: dropdown with css triangles */
+
+.mobile-only
+  display: none
+
+.tablet-plus
+  display: inline
+
+body
+  background-image: url(../img/brushed/brushed.png)
+  background-repeat: repeat
+
+#header-navigation
+  position: relative
+  text-align: center
+  width: 100%
+  display: block
+  background-color: #bababa 
+  padding: 14px 0
+  ul
+    position: relative
+    position: relative
+    margin-right: auto
+    margin-left: auto
+    list-style: none
+    padding: 0
+    margin: 0
+    li
+      float: left
+      padding: 12px
+      margin-left: 12px
+      a
+        text-decoration: none
+    ul.children
+      position: absolute
+      display: none
+    
+#homepage #identity
+  padding-bottom: 48px
+
+#homepage #offering
+  padding-top: 48px
+  padding-bottom: 48px
+  h2
+    position: relative
+    margin-right: auto
+    margin-left: auto
+    max-width: 800px
+    font-size: 2.6rem
+    font-weight: 300
+
+
+/***********************/
+/*   features          */
+/***********************/
+
+#homepage #featured-products
+  padding-top: 48px
+  padding-bottom: 48px
+  h2
+    padding-top: 48px
+    padding-bottom: 48px
+  .feature
+    //@include span-columns(4)    
+    overflow: hidden
+    width: 33%
+    margin-bottom: 0px
+    float: left
+    padding: 20px
+    .onsale
+      position: absolute
+      top: 0
+      left: 0
+    .imagewrapper
+      height: 260px
+      margin-bottom: 14px
+      overflow: hidden
+    .amount
+      display: block
+    
+
+#featured-artists
+  header
+    text-align: center
+    padding-top: 48px
+    padding-bottom: 48px
+  .artist 
+    @include span-columns(4)
+    img 
+      max-width: 200px
+
+/***********************/
+/*  page styles        */
+/***********************/
+
+#page-header
+  margin-bottom: 28px
+  
+#page  .entry-content
+  max-width: 900px
+
+
+/***********************/
+/*  sidebar            */
+/***********************/
+
+
+/***********************/
+/*  product page       */
+/***********************/
+
+.product .product-title-header
+  display: none
+
+.product 
+  .main-image-container
+    position: relative
+    float: left
+    width: 50%
+    text-align: center
+    .woocommerce-main-image
+  .summary
+    float: left
+    width: 50%

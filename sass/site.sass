@@ -1,0 +1,281 @@
+@import "reset"
+@import "typeplate/vars-typeplate"
+@import "typeplate/typeplate"
+@import "bourbon/bourbon"
+@import "neat/neat"
+@import "project"
+@import "buttons"
+@import "compass/css3/border-radius"
+@import "compass/css3/text-shadow"
+@import "forms"
+
+
+/*******  Initialisation  ***************/
+html
+  position: relative
+  height: 100%
+
+body
+  margin: 0px
+  padding: 0px
+  background-color: #fff
+  background-image: url(img/brushed/brushed.png)
+  background-repeat: repeat
+  p
+    line-height: 1.65
+
+.tablet-plus
+  display: none
+
+.group:after 
+  content: ""
+  display: table
+  clear: both
+
+@import "mobile-nav"
+
+.outer-container
+  @include outer-container()
+  overflow: hidden
+  max-width: 94%
+
+/*******  Initialisation Ends.  ***************/
+/*******  On with the show!     ***************/
+
+/***********************/
+/*  frontpage header   */
+/***********************/
+
+#frontpage-header
+  padding-top: 24px
+  padding-bottom: 25px 
+  background-color: #017cb0
+  .logo
+    position: relative
+    margin-right: auto
+    margin-left: auto
+    text-align: center
+
+#homepage #identity
+  @include outer-container
+  position: relative
+  padding-bottom: 0px
+  margin-bottom: 0
+  border-bottom: 0 !important
+
+#homepage #offering
+  padding-top: 24px
+  padding-bottom: 24px
+  h1
+    font-weight: 300
+    line-height: 1.6
+    margin-bottom: 24px
+  h2
+    line-height: 1.6
+    margin-right: 0 !important
+    margin-left: 0  !important
+  p
+    text-align: center
+    a
+      @include button(#ffba73)
+      @include text-shadow(#3f3f3f, 1)
+      font-family: 'Open Sans'
+      font-weight: 700
+      font-size: 1rem
+      letter-spacing: 1px
+      text-transform: uppercase
+      color: #fff
+
+/***************************/
+/*   page header           */
+/***************************/
+
+#page-header
+  background-color: #000
+  .logo
+    position: relative
+    position: relative
+    margin-right: auto
+    margin-left: auto
+    width: 100%
+    text-align: center
+    margin-bottom: 14px
+    img
+      height: 200px
+    
+/***********************/
+/* page footer         */
+/***********************/
+#page-footer
+  padding-top: 24px
+  padding-bottom: 24px
+  background-color: #000
+
+#page-footer .footer-content
+  @include outer-container
+    
+/***********************/
+/*   features          */
+/***********************/
+
+#homepage #featured-produts
+  background-color: #fff
+  padding-top: 14px
+  padding-bottom: 14px
+  h2
+    text-align: center
+    padding-top: 14px
+    padding-bottom: 14px
+  .feature    
+    overflow: hidden
+    header h3
+      text-align: center
+    img
+      width: 100%
+    .feature-description
+      padding-top: 14px
+      padding-bottom: 14px
+  footer
+    text-align: center
+  .cta
+    position: relative
+    margin-right: auto
+    margin-left: auto    
+    @include button(#ffba73)
+    @include text-shadow(#3f3f3f, 1)
+    color: #fff
+    line-height: 1
+    font-size: 1em
+
+/***********************/
+/*   features          */
+/***********************/
+
+#featured-artists
+  background-color: #fff
+  padding-top: 14px
+  padding-bottom: 14px
+  .artist 
+    padding-top: 14px
+    padding-bottom: 14px
+    header
+      text-align: center
+      padding-top: 14px
+      padding-bottom: 14px
+    .bio 
+      position: relative
+      overflow: hidden
+      img
+        position: relative
+        margin-right: auto
+        margin-left: auto
+        display: block
+        margin-bottom: 14px
+
+/*****************************************************/
+/*        sidebar                                    */
+/*****************************************************/
+
+.sidebar
+  @include outer-container
+  padding-top: 14px
+  padding-bottom: 14px
+  margin-bottom: 28px
+  ul
+    padding-top: 14px
+  ul li
+    padding-bottom: 14px
+  
+.sidebar .latest-news
+  h3
+    color: $darkCompliment
+    padding-bottom: 14px
+    font-weight: 700
+    font-size: 1.2em
+    border-bottom: 1px dotted $darkCompliment
+  h4
+    padding-bottom: 14px
+    a 
+      font-weight: 700
+      color: $dark
+      text-decoration: none
+  li
+    padding-top: 14px
+    border-bottom: 1px dotted $darkCompliment
+
+
+.sidebar .cartlinks
+  background-color: #c4d8e0
+  padding: 10px  
+  li 
+    display: inline
+    padding: 0 10px
+    a
+      color: $dark
+      font-size: 0.8rem
+
+
+/*****************************************************/
+/*       contact page                                */
+/*****************************************************/
+
+#page-contact
+  header
+    text-align: center
+
+#wpcf7-f93-p94-o1
+  position: relative
+  max-width: 100%
+  p
+    text-align: center
+
+/*****************************************************/
+/*        product single page                        */
+/*****************************************************/
+
+.product
+  position: relative
+  @include outer-container
+  overflow: hidden
+  header
+    text-align: center
+  .main-product-image
+    text-align: center
+    max-width: 100%
+    margin-bottom: 14px
+    img
+      max-width: 100%
+  
+.woocommerce-tabs
+  position: relative
+  border: 1px solid #363636
+  padding: 4%
+  .tabs 
+    display: block
+    content: ""
+    display: table
+    clear: both
+    li 
+      float: left
+      border-bottom: 1px solid $lightCompliment
+      margin-right: 10px
+      padding-top: 3px
+      a
+        text-decoration: none
+
+
+/*****************************************************/
+/*   media query extentions begin below...           */
+/*****************************************************/
+
+/*****************************************************/
+/* Detect tablet size and include appropriate styles */
+/*****************************************************/
+@media all and (min-width: 768px) 
+  @import "tablet"
+
+/*****************************************************/
+/* Detect tablet size and include appropriate styles */
+/*****************************************************/
+@media all and (min-width: 960px) 
+  @import "desktop"
