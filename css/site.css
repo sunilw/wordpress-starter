@@ -1703,7 +1703,7 @@ header .mobile-nav-link {
 #page-footer {
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: black;
+  background-color: #232323;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003161}}
