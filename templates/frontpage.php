@@ -83,5 +83,6 @@
       </div>
     </p>
   </article>
-
 </section><!-- ENDS #features -->
+
+<?php get_template_part("templates/frontpage-blogitems")  ?>
