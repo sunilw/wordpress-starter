@@ -34,17 +34,16 @@ elseif(is_search()){
 elseif(is_404()) {
   echo "page-404" ;
 }
-elseif(is_product()) {
-echo "page-product" ;
+elseif( function_exists(is_product) ){
+  if(is_product()) {
+    echo "page-product" ;
+  }
 }
 elseif(is_single()) {
-echo "page-single" ;
+  echo "page-single" ;
 }
 elseif (is_category()) {
   echo "category-page" ;
-}
-elseif (is_tax()) {
-  echo "tax" ;
 }
 else {
   echo "page" ;
