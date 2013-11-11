@@ -7,7 +7,7 @@
  *
  */
 ?>
-<?php 
+<?php
 $args = array(
   'posts_per_page' => 2
 ) ;
@@ -15,20 +15,20 @@ $my_query = new WP_Query($args) ;
 
 ?>
 <?php if ($my_query->have_posts()) : ?>
-  <h2>latest</h2>
-  <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+    <section id="blog-latest">
+      <h2>from the blog</h2>
+      <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-    <article class="news-preview">
-      <h3><?php the_title()  ?></h3>
-      <p><?php  the_excerpt(); ?></p>
-    </article>
+        <article class="news-preview">
+          <h3><?php the_title()  ?></h3>
+          <p><?php  the_excerpt(); ?></p>
+        </article>
 
-  <?php endwhile; ?>
+      <?php endwhile; ?>
 
 <?php else : ?>
-
-  <div class="no-entries">
-    <p>nothing to show yet</p>
-  </div>
-
+      <div class="no-entries">
+        <p>nothing to show yet</p>
+      </div>
+    </section>
 <?php endif; ?>

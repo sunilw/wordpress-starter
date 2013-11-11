@@ -66,7 +66,6 @@ body
         width: 100%
       
 #homepage #identity
-  @include outer-container
   position: relative
   padding-bottom: 0px
   margin-bottom: 0
@@ -82,8 +81,6 @@ body
     text-align: center
   h2
     line-height: 1.2
-    margin-right: 0 !important
-    margin-left: 0  !important
     text-align: center  !important
   p
     text-align: center
@@ -113,6 +110,8 @@ body
     margin-bottom: 14px
     img
       height: 200px
+
+/*  header ends. now moar frontpage stuff  */
 
 #features
   padding-top: 14px
@@ -149,6 +148,10 @@ body
     letter-spacing: 1px
     color: #fff
     font-weight: 300 
+
+#blog-latest
+  article
+    background-color: #c4c4c4
 
 /***********************/
 /* page footer         */
@@ -233,33 +236,6 @@ body
   ul li
     padding-bottom: 14px
   
-.sidebar .latest-news
-  h3
-    color: $darkCompliment
-    padding-bottom: 14px
-    font-weight: 700
-    font-size: 1.2em
-    border-bottom: 1px dotted $darkCompliment
-  h4
-    padding-bottom: 14px
-    a 
-      font-weight: 700
-      color: $dark
-      text-decoration: none
-  li
-    padding-top: 14px
-    border-bottom: 1px dotted $darkCompliment
-
-
-.sidebar .cartlinks
-  background-color: #c4d8e0
-  padding: 10px  
-  li 
-    display: inline
-    padding: 0 10px
-    a
-      color: $dark
-      font-size: 0.8rem
 
 
 /*****************************************************/

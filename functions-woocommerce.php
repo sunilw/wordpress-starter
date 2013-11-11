@@ -1,23 +1,5 @@
 <?php
 
-
-// sidebar
-
-function altar_widgets_init() {
-
-  register_sidebar( array(
-    'name' => 'altarts sidebar',
-    'id' => 'altart_sidebar',
-    'before_widget' => '<div>',
-    'after_widget' => '</div>',
-    'before_title' => '<h2 class="rounded">',
-    'after_title' => '</h2>',
-  ) );
-}
-
-
-add_action( 'widgets_init', 'altarts_widgets_init' );
-
 // ------------------------------------------------------------------
 // woocommerce support
 // http://docs.woothemes.com/document/third-party-custom-theme-compatibility/
