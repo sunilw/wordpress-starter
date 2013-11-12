@@ -9,7 +9,6 @@
  *
  */
 ?>
-<h2>got here</h2>
 <?php if (have_posts()) : ?>
   <section id="latest-news-preview">
   <?php while (have_posts()) : the_post(); ?>

@@ -11,7 +11,10 @@ _deprecated_file( sprintf( __( 'Theme without %1$s' ), basename(__FILE__) ), '3.
 ?>
 <section class="sidebar" role="complementary">
 
-  <?php get_template_part('templates/cart_links')  ?>
+  <?php
+  // uncomment if we are using woocommerce
+  // get_template_part('templates/cart_links')  
+  ?>
 
 
   <ul>

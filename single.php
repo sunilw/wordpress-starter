@@ -4,8 +4,8 @@
  *
  */
 ?>
-<div id="primary" class="site-content">
-  <div id="content" role="main">
+<div class="outer-container">
+  <div id="single-content" role="main">
 
     <?php while ( have_posts() ) : the_post(); ?>
 
@@ -14,11 +14,11 @@
       <nav class="nav-single">
         <h3 class="assistive-text"><?php _e( 'Post navigation'); ?></h3>
         <span class="nav-previous">
-          <?php previous_post_link( '%link', '<span class="meta-nav">' . 
+          <?php previous_post_link( '%link', '<span class="meta-nav">' .
                                     _x( '&larr;', 'Previous post link') . '</span> %title' ); ?>
         </span>
         <span class="nav-next">
-          <?php next_post_link( '%link', '%title <span class="meta-nav">' . 
+          <?php next_post_link( '%link', '%title <span class="meta-nav">' .
                                 _x( '&rarr;', 'Next post link' ) . '</span>' ); ?>
         </span>
       </nav><!-- .nav-single -->
@@ -28,4 +28,7 @@
     <?php endwhile; // end of the loop. ?>
 
   </div><!-- #content -->
-</div><!-- #primary -->
+
+  <?php get_sidebar()  ?>
+
+</div><!-- ENDS .outer-container -->

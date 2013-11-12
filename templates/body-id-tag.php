@@ -9,9 +9,7 @@
  * sunil@sunil.co.nz
  *
  */
-?>
-
-<?php
+?><?php
 // give our body tag target properties
 // depending on which page is being served
 if (is_front_page()) {

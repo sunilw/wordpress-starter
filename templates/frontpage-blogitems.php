@@ -18,18 +18,11 @@ $my_query = new WP_Query($args) ;
   <section id="blog-latest">
     <h2>from the blog</h2>
     <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-
       <article class="news-preview">
         <h3><?php the_title()  ?></h3>
         <p><?php  the_excerpt(); ?></p>
 	<p><a href="<?php echo get_permalink()  ?>">read more</a></p>
       </article>
-
     <?php endwhile; ?>
-
-<?php else : ?>
-    <div class="no-entries">
-      <p>nothing to show yet</p>
-    </div>
-  </section>
+  </section> <!-- ENDS #blog-latest -->
 <?php endif; ?>
