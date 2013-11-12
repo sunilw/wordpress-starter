@@ -10,6 +10,7 @@
  *
  */
 ?>
+
 <?php
 // give our body tag target properties
 // depending on which page is being served
@@ -34,7 +35,7 @@ elseif(is_search()){
 elseif(is_404()) {
   echo "page-404" ;
 }
-elseif( function_exists(is_product) ){
+elseif ( function_exists( is_product )) { /* for woocommerce */
   if(is_product()) {
     echo "page-product" ;
   }
@@ -45,6 +46,7 @@ elseif(is_single()) {
 elseif (is_category()) {
   echo "category-page" ;
 }
+
 else {
   echo "page" ;
 }

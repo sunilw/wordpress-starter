@@ -470,7 +470,7 @@ body:before {
   height: 100%;
   left: 0;
   margin: 0 auto;
-  max-width: 98%;
+  max-width: 1200px;
   opacity: 0.2;
   position: fixed;
   right: 0;
@@ -1476,7 +1476,8 @@ header .mobile-nav-link {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\0000336}}
 .outer-container {
   *zoom: 1;
-  max-width: 98%;
+  width: 98%;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -1735,7 +1736,8 @@ header .mobile-nav-link {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003171}}
 #page-footer .footer-content {
   *zoom: 1;
-  max-width: 98%;
+  width: 98%;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1870,7 +1872,8 @@ header .mobile-nav-link {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003236}}
 .sidebar {
   *zoom: 1;
-  max-width: 98%;
+  width: 98%;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 14px;
@@ -1920,7 +1923,8 @@ header .mobile-nav-link {
 .product {
   position: relative;
   *zoom: 1;
-  max-width: 98%;
+  width: 98%;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -2060,7 +2064,8 @@ header .mobile-nav-link {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_tablet\.sass}line{font-family:\0000359}}
   #features {
     *zoom: 1;
-    max-width: 98%;
+    width: 98%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -2107,7 +2112,8 @@ header .mobile-nav-link {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_tablet\.sass}line{font-family:\0000385}}
   #blog-latest {
     *zoom: 1;
-    max-width: 98%;
+    width: 98%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }

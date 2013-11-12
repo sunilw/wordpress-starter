@@ -23,7 +23,7 @@
   <body id="<?php get_template_part("templates/body-id-tag")  ?>">
     <div id="outer-wrapper">
       <?php
-      if ( ! is_front_page() ) {        
+      if ( ! is_front_page() ) {
         get_template_part('templates/page-header') ;
       }
       ?>
