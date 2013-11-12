@@ -10,7 +10,7 @@
  */
 ?>
 <div class="outer-container">
-  <div id="single-content" role="main">
+  <div id="content" class="single-content" role="main">
 
     <?php while ( have_posts() ) : the_post(); ?>
 

@@ -5,7 +5,7 @@
  *
  */
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="<?php echo starter_post_title() ?>" <?php post_class(); ?>>
   <?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
     <div class="featured-post">
       <?php _e( 'Featured post'); ?>
@@ -18,7 +18,7 @@
 
       <div class="attribution">
         <p>
-          by 
+          by
           <?php the_author_posts_link()  ?>
 
         </p>

@@ -5,6 +5,16 @@
 // ------------------------------------------------------------------
 //
 
+// actually reaturn the post title
+// replace spaces in title with hyphens
+function starter_post_title()
+{
+  
+  $id = get_the_ID() ;  
+  $str =  get_the_title($id) ;
+  
+  echo str_replace(" ", "-", $str) ;
+}
 
 /**
  * Register our sidebars and widgetized areas.
@@ -12,14 +22,14 @@
  */
 function altart_widgets_init() {
 
-	register_sidebar( array(
-		'name' => 'main sidebar',
-		'id' => 'home_right_1',
-		'before_widget' => '<div>',
-		'after_widget' => '</div>',
-		'before_title' => '<h2 class="rounded">',
-		'after_title' => '</h2>',
-	) );
+  register_sidebar( array(
+    'name' => 'main sidebar',
+    'id' => 'home_right_1',
+    'before_widget' => '<div>',
+    'after_widget' => '</div>',
+    'before_title' => '<h2 class="rounded">',
+    'after_title' => '</h2>',
+  ) );
 }
 add_action( 'widgets_init', 'altart_widgets_init' );
 
@@ -68,12 +78,12 @@ class My_Wrapping {
     self::$base = substr( basename( self::$main_template ), 0, -4 );
 
     if ( 'index' == self::$base )
-    self::$base = false;
+      self::$base = false;
 
     $templates = array( 'wrapper.php' );
 
     if ( self::$base )
-    array_unshift( $templates, sprintf( 'wrapper-%s.php', self::$base ) );
+      array_unshift( $templates, sprintf( 'wrapper-%s.php', self::$base ) );
 
     return locate_template( $templates );
   }
@@ -121,9 +131,9 @@ function wpf_comment_form( $args = array(), $post_id = null ) {
   global $id;
 
   if ( null === $post_id )
-  $post_id = $id;
+    $post_id = $id;
   else
-  $id = $post_id;
+    $id = $post_id;
 
   $commenter = wp_get_current_commenter();
   $user = wp_get_current_user();
