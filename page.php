@@ -9,14 +9,31 @@
  *
  */
 ?>
-<?php while ( have_posts() ) : the_post(); ?>
-  <div class="outer-container">
-    <?php get_template_part( 'content', 'page' ); ?>
-  </div> <!-- ENDS .outer-container -->
+<div class="outer-container">
+  <div id="single-content" role="main">
 
-  <div class="outer-container">
-    <?php  //comments_template( '', true );
-    wpf_comment_form() ;
-    ?>
-  </div> <!-- ENDS .outer-container -->
-<?php endwhile; // end of the loop. ?>
+    <?php while ( have_posts() ) : the_post(); ?>
+
+      <?php get_template_part( 'content', get_post_format() ); ?>
+
+      <nav class="nav-single">
+        <h3 class="assistive-text"><?php _e( 'Post navigation'); ?></h3>
+        <span class="nav-previous">
+          <?php previous_post_link( '%link', '<span class="meta-nav">' .
+                                    _x( '&larr;', 'Previous post link') . '</span> %title' ); ?>
+        </span>
+        <span class="nav-next">
+          <?php next_post_link( '%link', '%title <span class="meta-nav">' .
+                                _x( '&rarr;', 'Next post link' ) . '</span>' ); ?>
+        </span>
+      </nav><!-- .nav-single -->
+
+      <?php comments_template( '', true ); ?>
+
+    <?php endwhile; // end of the loop. ?>
+
+  </div><!-- #content -->
+
+  <?php get_sidebar()  ?>
+
+</div><!-- ENDS .outer-container -->
