@@ -75,16 +75,16 @@
   <?php endif; ?>
   </footer><!-- .entry-meta -->
 
-    <nav class="nav-single">
-      <h3 class="assistive-text"><?php _e( 'Post navigation'); ?></h3>
-      <span class="nav-previous">
-        <?php previous_post_link( '%link', '<span class="meta-nav">' .
-                                  _x( '&larr;', 'Previous post link') . '</span> %title' ); ?>
-      </span>
-      <span class="nav-next">
-        <?php next_post_link( '%link', '%title <span class="meta-nav">' .
-                              _x( '&rarr;', 'Next post link' ) . '</span>' ); ?>
-      </span>
-    </nav><!-- .nav-single -->
+  <nav class="nav-single">
+    <h3 class="assistive-text"><?php _e( 'Post navigation'); ?></h3>
+    <span class="nav-previous">
+      <?php previous_post_link( '%link', '<span class="meta-nav">' .
+                                _x( '&larr;', 'Previous post link') . '</span> %title' ); ?>
+    </span>
+    <span class="nav-next">
+      <?php next_post_link( '%link', '%title <span class="meta-nav">' .
+                            _x( '&rarr;', 'Next post link' ) . '</span>' ); ?>
+    </span>
+  </nav><!-- .nav-single -->
 
 </article><!-- #post -->
