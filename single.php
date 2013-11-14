@@ -4,21 +4,20 @@
  *
  */
 ?>
-<div class="outer-container">
+<div class="outer-container group">
 
   <?php while ( have_posts() ) : the_post(); ?>
 
+    <div class="content-and-commentary">
     <?php get_template_part( 'content', get_post_format() ); ?>
-
-    <?php get_sidebar()  ?>
+      
+    <?php starter_comment_form( '', true ); ?>
+      
+    </div> <!-- .content-and-sidebar ends -->
 
   <?php endwhile; // end of the loop. ?>
-</div><!-- ENDS .outer-container -->
 
-<div class="outer-container">
-  <?php starter_comment_form( '', true ); ?>
+
+  <?php get_sidebar()  ?>
+
 </div> <!-- ENDS .outer-container -->
-
-<section id="article-comments">
-  <?php comments_template()  ?>
-</section><!-- ENDS #article-comments -->
