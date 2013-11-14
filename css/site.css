@@ -457,28 +457,6 @@ p + .drop-cap {
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/neat\/grid\/_visual-grid\.scss}line{font-family:\0000311}}
-body:before {
-  content: '';
-  display: inline-block;
-  background-image: deprecated-webkit-gradient(linear, left top, left bottom, transparent 0, #ffefef 0, #ffefef 6.17215%, transparent 6.17215%, transparent 8.5298%, #ffefef 8.5298%, #ffefef 14.70196%, transparent 14.70196%, transparent 17.05961%, #ffefef 17.05961%, #ffefef 23.23176%, transparent 23.23176%, transparent 25.58941%, #ffefef 25.58941%, #ffefef 31.76157%, transparent 31.76157%, transparent 34.11922%, #ffefef 34.11922%, #ffefef 40.29137%, transparent 40.29137%, transparent 42.64902%, #ffefef 42.64902%, #ffefef 48.82117%, transparent 48.82117%, transparent 51.17883%, #ffefef 51.17883%, #ffefef 57.35098%, transparent 57.35098%, transparent 59.70863%, #ffefef 59.70863%, #ffefef 65.88078%, transparent 65.88078%, transparent 68.23843%, #ffefef 68.23843%, #ffefef 74.41059%, transparent 74.41059%, transparent 76.76824%, #ffefef 76.76824%, #ffefef 82.94039%, transparent 82.94039%, transparent 85.29804%, #ffefef 85.29804%, #ffefef 91.4702%, transparent 91.4702%, transparent 93.82785%, #ffefef 93.82785%, #ffefef 100.0%, transparent 100.0%);
-  background-image: -webkit-linear-gradient(left, transparent 0, #ffefef 0, #ffefef 6.17215%, transparent 6.17215%, transparent 8.5298%, #ffefef 8.5298%, #ffefef 14.70196%, transparent 14.70196%, transparent 17.05961%, #ffefef 17.05961%, #ffefef 23.23176%, transparent 23.23176%, transparent 25.58941%, #ffefef 25.58941%, #ffefef 31.76157%, transparent 31.76157%, transparent 34.11922%, #ffefef 34.11922%, #ffefef 40.29137%, transparent 40.29137%, transparent 42.64902%, #ffefef 42.64902%, #ffefef 48.82117%, transparent 48.82117%, transparent 51.17883%, #ffefef 51.17883%, #ffefef 57.35098%, transparent 57.35098%, transparent 59.70863%, #ffefef 59.70863%, #ffefef 65.88078%, transparent 65.88078%, transparent 68.23843%, #ffefef 68.23843%, #ffefef 74.41059%, transparent 74.41059%, transparent 76.76824%, #ffefef 76.76824%, #ffefef 82.94039%, transparent 82.94039%, transparent 85.29804%, #ffefef 85.29804%, #ffefef 91.4702%, transparent 91.4702%, transparent 93.82785%, #ffefef 93.82785%, #ffefef 100.0%, transparent 100.0%);
-  background-image: -moz-linear-gradient(left, transparent 0, #ffefef 0, #ffefef 6.17215%, transparent 6.17215%, transparent 8.5298%, #ffefef 8.5298%, #ffefef 14.70196%, transparent 14.70196%, transparent 17.05961%, #ffefef 17.05961%, #ffefef 23.23176%, transparent 23.23176%, transparent 25.58941%, #ffefef 25.58941%, #ffefef 31.76157%, transparent 31.76157%, transparent 34.11922%, #ffefef 34.11922%, #ffefef 40.29137%, transparent 40.29137%, transparent 42.64902%, #ffefef 42.64902%, #ffefef 48.82117%, transparent 48.82117%, transparent 51.17883%, #ffefef 51.17883%, #ffefef 57.35098%, transparent 57.35098%, transparent 59.70863%, #ffefef 59.70863%, #ffefef 65.88078%, transparent 65.88078%, transparent 68.23843%, #ffefef 68.23843%, #ffefef 74.41059%, transparent 74.41059%, transparent 76.76824%, #ffefef 76.76824%, #ffefef 82.94039%, transparent 82.94039%, transparent 85.29804%, #ffefef 85.29804%, #ffefef 91.4702%, transparent 91.4702%, transparent 93.82785%, #ffefef 93.82785%, #ffefef 100.0%, transparent 100.0%);
-  background-image: -ms-linear-gradient(left, transparent 0, #ffefef 0, #ffefef 6.17215%, transparent 6.17215%, transparent 8.5298%, #ffefef 8.5298%, #ffefef 14.70196%, transparent 14.70196%, transparent 17.05961%, #ffefef 17.05961%, #ffefef 23.23176%, transparent 23.23176%, transparent 25.58941%, #ffefef 25.58941%, #ffefef 31.76157%, transparent 31.76157%, transparent 34.11922%, #ffefef 34.11922%, #ffefef 40.29137%, transparent 40.29137%, transparent 42.64902%, #ffefef 42.64902%, #ffefef 48.82117%, transparent 48.82117%, transparent 51.17883%, #ffefef 51.17883%, #ffefef 57.35098%, transparent 57.35098%, transparent 59.70863%, #ffefef 59.70863%, #ffefef 65.88078%, transparent 65.88078%, transparent 68.23843%, #ffefef 68.23843%, #ffefef 74.41059%, transparent 74.41059%, transparent 76.76824%, #ffefef 76.76824%, #ffefef 82.94039%, transparent 82.94039%, transparent 85.29804%, #ffefef 85.29804%, #ffefef 91.4702%, transparent 91.4702%, transparent 93.82785%, #ffefef 93.82785%, #ffefef 100.0%, transparent 100.0%);
-  background-image: -o-linear-gradient(left, transparent 0, #ffefef 0, #ffefef 6.17215%, transparent 6.17215%, transparent 8.5298%, #ffefef 8.5298%, #ffefef 14.70196%, transparent 14.70196%, transparent 17.05961%, #ffefef 17.05961%, #ffefef 23.23176%, transparent 23.23176%, transparent 25.58941%, #ffefef 25.58941%, #ffefef 31.76157%, transparent 31.76157%, transparent 34.11922%, #ffefef 34.11922%, #ffefef 40.29137%, transparent 40.29137%, transparent 42.64902%, #ffefef 42.64902%, #ffefef 48.82117%, transparent 48.82117%, transparent 51.17883%, #ffefef 51.17883%, #ffefef 57.35098%, transparent 57.35098%, transparent 59.70863%, #ffefef 59.70863%, #ffefef 65.88078%, transparent 65.88078%, transparent 68.23843%, #ffefef 68.23843%, #ffefef 74.41059%, transparent 74.41059%, transparent 76.76824%, #ffefef 76.76824%, #ffefef 82.94039%, transparent 82.94039%, transparent 85.29804%, #ffefef 85.29804%, #ffefef 91.4702%, transparent 91.4702%, transparent 93.82785%, #ffefef 93.82785%, #ffefef 100.0%, transparent 100.0%);
-  background-image: linear-gradient(left, transparent 0, #ffefef 0, #ffefef 6.17215%, transparent 6.17215%, transparent 8.5298%, #ffefef 8.5298%, #ffefef 14.70196%, transparent 14.70196%, transparent 17.05961%, #ffefef 17.05961%, #ffefef 23.23176%, transparent 23.23176%, transparent 25.58941%, #ffefef 25.58941%, #ffefef 31.76157%, transparent 31.76157%, transparent 34.11922%, #ffefef 34.11922%, #ffefef 40.29137%, transparent 40.29137%, transparent 42.64902%, #ffefef 42.64902%, #ffefef 48.82117%, transparent 48.82117%, transparent 51.17883%, #ffefef 51.17883%, #ffefef 57.35098%, transparent 57.35098%, transparent 59.70863%, #ffefef 59.70863%, #ffefef 65.88078%, transparent 65.88078%, transparent 68.23843%, #ffefef 68.23843%, #ffefef 74.41059%, transparent 74.41059%, transparent 76.76824%, #ffefef 76.76824%, #ffefef 82.94039%, transparent 82.94039%, transparent 85.29804%, #ffefef 85.29804%, #ffefef 91.4702%, transparent 91.4702%, transparent 93.82785%, #ffefef 93.82785%, #ffefef 100.0%, transparent 100.0%);
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 1200px;
-  opacity: 0.2;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  pointer-events: none;
-  z-index: 9999;
-}
-
 /* my own mixins */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_project\.sass}line{font-family:\000035}}
 group:after {
@@ -1729,16 +1707,25 @@ header .mobile-nav-link {
 }
 
 /********************* */
+/*  comments           */
+/********************* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003170}}
+.comment-form {
+  background-color: #e3e3e3;
+  border: 1px solid #c9c9c9;
+}
+
+/********************* */
 /* page footer         */
 /********************* */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003177}}
 #page-footer {
   padding-top: 24px;
   padding-bottom: 24px;
   background-color: #232323;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003182}}
 #page-footer .footer-content {
   *zoom: 1;
   width: 98%;
@@ -1759,40 +1746,40 @@ header .mobile-nav-link {
 /********************* */
 /*   features          */
 /********************* */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003189}}
 #homepage #featured-products {
   background-color: white;
   padding-top: 14px;
   padding-bottom: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003193}}
 #homepage #featured-products h2 {
   text-align: center;
   padding-top: 14px;
   padding-bottom: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003197}}
 #homepage #featured-products .feature {
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003199}}
 #homepage #featured-products .feature header h3 {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003201}}
 #homepage #featured-products .feature img {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003203}}
 #homepage #featured-products .feature .feature-description {
   padding-top: 14px;
   padding-bottom: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003206}}
 #homepage #featured-products footer {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003208}}
 #homepage #featured-products .cta {
   position: relative;
   margin-right: auto;
@@ -1840,29 +1827,29 @@ header .mobile-nav-link {
 /********************* */
 /*   features          */
 /********************* */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003222}}
 #featured-artists {
   background-color: white;
   padding-top: 14px;
   padding-bottom: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003226}}
 #featured-artists .artist {
   padding-top: 14px;
   padding-bottom: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003229}}
 #featured-artists .artist header {
   text-align: center;
   padding-top: 14px;
   padding-bottom: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003233}}
 #featured-artists .artist .bio {
   position: relative;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003236}}
 #featured-artists .artist .bio img {
   position: relative;
   margin-right: auto;
@@ -1874,7 +1861,7 @@ header .mobile-nav-link {
 /*************************************************** */
 /*        sidebar                                    */
 /*************************************************** */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003247}}
 .sidebar {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -1882,11 +1869,11 @@ header .mobile-nav-link {
   background-color: #e3e3e3;
   border: 1px solid #c9c9c9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003253}}
 .sidebar ul {
   padding-top: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003255}}
 .sidebar ul li {
   padding-bottom: 14px;
 }
@@ -1894,17 +1881,17 @@ header .mobile-nav-link {
 /*************************************************** */
 /*       contact page                                */
 /*************************************************** */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003265}}
 #page-contact header {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003268}}
 #wpcf7-f93-p94-o1 {
   position: relative;
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003271}}
 #wpcf7-f93-p94-o1 p {
   text-align: center;
 }
@@ -1912,7 +1899,7 @@ header .mobile-nav-link {
 /*************************************************** */
 /*        single  and page                           */
 /*************************************************** */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003280}}
 #page-single .nav-single, body#page .nav-single {
   border-radius: 4px;
 }
@@ -1920,7 +1907,7 @@ header .mobile-nav-link {
 /*************************************************** */
 /*        product single page                        */
 /*************************************************** */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003287}}
 .product {
   position: relative;
   *zoom: 1;
@@ -1939,42 +1926,42 @@ header .mobile-nav-link {
 .product:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003291}}
 .product header {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003293}}
 .product .main-product-image {
   text-align: center;
   max-width: 100%;
   margin-bottom: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003297}}
 .product .main-product-image img {
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003300}}
 .woocommerce-tabs {
   position: relative;
   border: 1px solid #363636;
   padding: 4%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003304}}
 .woocommerce-tabs .tabs {
   display: block;
   content: "";
   display: table;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003309}}
 .woocommerce-tabs .tabs li {
   float: left;
   border-bottom: 1px solid #0b5385;
   margin-right: 10px;
   padding-top: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003314}}
 .woocommerce-tabs .tabs li a {
   text-decoration: none;
 }
