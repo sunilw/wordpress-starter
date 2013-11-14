@@ -18,3 +18,7 @@
 <div class="outer-container">
   <?php starter_comment_form( '', true ); ?>
 </div> <!-- ENDS .outer-container -->
+
+<section id="article-comments">
+  <?php comments_template()  ?>
+</section><!-- ENDS #article-comments -->
