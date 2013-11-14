@@ -21,9 +21,5 @@
 </div><!-- ENDS .outer-container -->
 
 <div class="outer-container">
-  <?php 
-
-  starter_comment_form('', true ); 
-  
-  ?>
+  <?php   starter_comment_form('', true );     ?>
 </div> <!-- ENDS .outer-container -->

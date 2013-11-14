@@ -16,5 +16,5 @@
 </div><!-- ENDS .outer-container -->
 
 <div class="outer-container">
-  <?php comments_template( '', true ); ?>
+  <?php starter_comment_form( '', true ); ?>
 </div> <!-- ENDS .outer-container -->
