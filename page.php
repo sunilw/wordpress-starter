@@ -1,23 +1,35 @@
 <?php
 /**
- * The template for displaying all pages.
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
+ * The Template for displaying all single posts.
  *
  */
 ?>
-<div class="outer-container">
+<div class="outer-container group">
 
   <?php while ( have_posts() ) : the_post(); ?>
 
-    <?php get_template_part( 'content', get_post_format() ); ?>
+    <div class="content-and-commentary">
+      <?php get_template_part( 'content', get_post_format() ); ?>
 
-    <?php get_sidebar()  ?>
+      <?php starter_comment_form( '', true ); ?>
+
+
+      <?php
+      comments_template()  ;
+      ?>
+
+    </div> <!-- .content-and-sidebar ends -->
 
   <?php endwhile; // end of the loop. ?>
 
-  <?php   starter_comment_form('', true );     ?>
+
+  <?php
+  // if the sidebar has widgets active
+  // if true, then show the sidebar
+
+  if (is_dynamic_sidebar('home_right_1')) { ?>
+  <aside class="sidebar">
+    <?php dynamic_sidebar('home_right_1') ;  ?>
+  </aside><!-- ENDS .sidebar -->
+  <?php   }  ?>
 </div> <!-- ENDS .outer-container -->

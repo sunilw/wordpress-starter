@@ -9,28 +9,19 @@
  */
 _deprecated_file( sprintf( __( 'Theme without %1$s' ), basename(__FILE__) ), '3.0', null, sprintf( __('Please include a %1$s template in your theme.'), basename(__FILE__) ) );
 ?>
-<section class="sidebar" role="complementary">
-
-  <?php
-  // uncomment if we are using woocommerce
-  // get_template_part('templates/cart_links')  
-  ?>
-
-
+<div id="sidebar" role="complementary">
   <ul>
     <?php       /* Widgetized sidebar, if you have the plugin installed. */
-    if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('altart_sidebar') ) : ?>
+    if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
     <li>
       <?php get_search_form(); ?>
     </li>
 
-    <ul>
-      <?php
-      // list latest articles
-      get_template_part('templates/sidebar-latest-entries')
-      ?>
-    </ul>
-
+    <!-- Author information is disabled per default. Uncomment and fill in your details if you want to use it.
+    <li><h2><?php _e('Author'); ?></h2>
+    <p>A little something about you, the author. Nothing lengthy, just an overview.</p>
+    </li>
+    -->
 
     <?php if ( is_404() || is_category() || is_day() || is_month() ||
               is_year() || is_search() || is_paged() ) {
@@ -61,24 +52,32 @@ _deprecated_file( sprintf( __( 'Theme without %1$s' ), basename(__FILE__) ), '3.
     <?php }?>
   </ul>
   <ul role="navigation">
-    <li>
-      <a href="<?php echo site_url()  ?>/cart">cart</a>
+    <?php wp_list_pages('title_li=<h2>' . __('Pages') . '</h2>' ); ?>
+
+    <li><h2><?php _e('Archives'); ?></h2>
+      <ul>
+        <?php wp_get_archives(array('type' => 'monthly')); ?>
+      </ul>
     </li>
 
+    <?php wp_list_categories(array('show_count' => 1, 'title_li' => '<h2>' . __('Categories') . '</h2>')); ?>
   </ul>
   <ul>
     <?php /* If this is the frontpage */ if ( is_home() || is_page() ) { ?>
     <?php wp_list_bookmarks(); ?>
 
-    <li><h3><?php _e('Meta'); ?></h3>
+    <li><h2><?php _e('Meta'); ?></h2>
       <ul>
         <?php wp_register(); ?>
-        <li><?php  wp_loginout(); ?></li>
-        <?php  wp_meta(); ?>
+        <li><?php wp_loginout(); ?></li>
+        <li><a href="http://validator.w3.org/check/referer" title="<?php esc_attr_e('This page validates as XHTML 1.0 Transitional'); ?>"><?php _e('Valid <abbr title="eXtensible HyperText Markup Language">XHTML</abbr>'); ?></a></li>
+        <li><a href="http://gmpg.org/xfn/"><abbr title="<?php esc_attr_e('XHTML Friends Network'); ?>"><?php _e('XFN'); ?></abbr></a></li>
+        <li><a href="http://wordpress.org/" title="<?php esc_attr_e('Powered by WordPress, state-of-the-art semantic personal publishing platform.'); ?>">WordPress</a></li>
+        <?php wp_meta(); ?>
       </ul>
     </li>
     <?php } ?>
 
     <?php endif; ?>
   </ul>
-</section>
+</div>

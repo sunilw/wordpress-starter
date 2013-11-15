@@ -25,8 +25,8 @@ function altart_widgets_init() {
   register_sidebar( array(
     'name' => 'main sidebar',
     'id' => 'home_right_1',
-    'before_widget' => '<div>',
-    'after_widget' => '</div>',
+    'before_widget' => '<article>',
+    'after_widget' => '</article>',
     'before_title' => '<h2 class="rounded">',
     'after_title' => '</h2>',
   ) );
