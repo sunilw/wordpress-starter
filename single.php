@@ -16,12 +16,9 @@
       // echo the comment form
       starter_comment_form( '', true );
 
-
       comments_template() ;
       
-
     ?>
-
 
 </div> <!-- .content-and-sidebar ends -->
 
