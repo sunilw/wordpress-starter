@@ -29,6 +29,8 @@ LICENSE URL ... http://creativecommons.org/licenses/by/3.0
 //
 // .x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x //
 
+@import "typeplate/vars-typeplate" ;
+
 
 // $Variable $BaseType
 // -------------------------------------//
@@ -56,7 +58,7 @@ $small-print-size: 65% !default;
 // -------------------------------------//
 
 $body-copy-color: #444 !default;
-$heading-color: #222 !default;
+$heading-color: #444; 
 
 
 // $Variable $Ampersand
@@ -685,7 +687,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: $heading-color;
+    color: #444 ;
 }
 
 

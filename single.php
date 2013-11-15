@@ -8,18 +8,24 @@
 
   <?php while ( have_posts() ) : the_post(); ?>
     <div class="content-and-commentary">
-      <?php 
+      <?php
 
+      // echo the content
       get_template_part( 'content', get_post_format() ) ;
-      
+
+      // echo the comment form
       starter_comment_form( '', true );
+
+
+      comments_template() ;
       
-      comments_template()  ;
 
-      ?>
-    </div> <!-- .content-and-sidebar ends -->
+    ?>
 
-  <?php endwhile; // end of the loop. 
+
+</div> <!-- .content-and-sidebar ends -->
+
+  <?php endwhile; // end of the loop.
   ?>
 
   <?php

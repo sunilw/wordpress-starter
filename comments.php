@@ -12,7 +12,7 @@
  * @since Twenty Ten 1.0
  */
 ?>
-
+<?php if ( have_comments() ) : ?>
 <div id="comments">
   <?php if ( post_password_required() ) : ?>
     <p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.'); ?></p>
@@ -26,13 +26,10 @@ return;
 endif;
 ?>
 
-<?php if ( have_comments() ) : ?>
   <ul>
   <?php
   wp_list_comments();
   ?>
   </ul>
-  <?php
-  endif
-  ?>
 </div><!-- #comments -->
+ <?php  endif  ?>
