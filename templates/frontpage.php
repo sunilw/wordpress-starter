@@ -4,19 +4,9 @@
 /* Copyright for this template belongs to Sunil Williams
 /* sunil@sunil.co.nz
 /
-/ * Template Name: Frontpage
+/ * Template Name: Frontpage2
 /*
  */?>
-<header id="frontpage-header">
-  <section id="identity" class="delta">
-    <div class="logo">
-      <a href="#">
-        <img src="<?php echo get_stylesheet_directory_uri()  ?>/img/logo.png"
-        class="" alt="identity" />
-      </a>
-    </div>
-  </section>  <!-- ENDS identity -->
-</header> <!-- ENDS #frontpage-header -->
 <div id="nav-toggle-container" class="mobile-only">
   <article id="menu-access">
     <a href="#" id="nav-toggle">Menu</a>

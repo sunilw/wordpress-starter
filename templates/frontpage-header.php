@@ -23,6 +23,3 @@
     <a href="#" id="nav-toggle">Menu</a>
   </article> <!-- ENDS #menu-access -->
 </div>
-<nav id="header-navigation" class="tablet-plus">
-  <?php get_template_part('templates/navigation-pages')  ?>
-</nav>

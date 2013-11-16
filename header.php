@@ -9,9 +9,9 @@
     <script src="cdnjs.cloudflare.com/ajax/libs/es5-shim/2.1.0/es5-shim.min.js"></script>
     <![endif]-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300'
-          rel='stylesheet' type='text/css'>
+    rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css"
-          href="<?php  echo get_template_directory_uri()  ; ?>/css/site.css" />
+    href="<?php  echo get_template_directory_uri()  ; ?>/css/site.css" />
     <!--   ###################### -->
     <!--   call to head() starts     -->
     <!--   ###################### -->
@@ -23,7 +23,11 @@
   <body id="<?php get_template_part("templates/body-id-tag")  ?>">
     <div id="outer-wrapper">
       <?php
-      if ( ! is_front_page() ) {
-        get_template_part('templates/page-header') ;
+      // get the right page top
+      if ( is_front_page() ) {
+	get_template_part('templates/frontpage-header') ;
       }
+      else {
+	get_template_part('templates/page-header') ;
+      }	
       ?>

@@ -1,7 +1,10 @@
 <?php
 /**
- * The Template for displaying all single posts.
- *
+  The Template for displaying all single posts. 
+
+  Author:             Sunil Williams
+  Author URI:         http://sunil.co.nz
+
  */
 ?>
 <div class="outer-container group">
