@@ -9,6 +9,10 @@
 /*
  */?>
 <header id="page-header">
+    <?php 
+    // get mobile navigation
+    get_template_part('templates/mobile-navigation') ;
+    ?>
   <section id="identity" class="delta">
     <div class="logo">
       <a href="#">
@@ -18,8 +22,10 @@
     </div>
   </section>  <!-- ENDS identity -->
 </header> <!-- ENDS #frontpage-header -->
+
+
 <div id="nav-toggle-container" class="mobile-only">
   <article id="menu-access">
     <a href="#" id="nav-toggle">Menu</a>
-  </article> <!-- ENDS #menu-access -->
-</div>
+  </article> <!-- ENDS #menu-access -->  
+</div><!-- ENDS nav-toggle-container -->

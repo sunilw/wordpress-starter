@@ -1462,6 +1462,34 @@ header .mobile-nav-link {
   background-color: #4a9fae;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000330}}
+#mobile-nav {
+  display: none;
+  position: absolute;
+  right: 2%;
+  background-color: #4a9fae;
+  border: 1px solid #3b8b9a;
+  z-index: 500;
+  padding: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000338}}
+#mobile-nav h3 {
+  font-size: 1em;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000341}}
+#mobile-nav ul {
+  padding-bottom: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000343}}
+#mobile-nav ul li {
+  padding-bottom: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000345}}
+#mobile-nav ul li a {
+  color: white;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\0000342}}
 .outer-container {
   *zoom: 1;

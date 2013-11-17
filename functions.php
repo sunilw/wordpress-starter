@@ -142,9 +142,14 @@ function wps_scripts()
 {
 
   wp_deregister_script('jquery');
+  
   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js", false, null);
   wp_enqueue_script('jquery');
 
+  // add our own js 
+  wp_register_script('starterjs', get_template_directory_uri() . "/js/starter.js" , array('jquery') ) ;
+  wp_enqueue_script('starterjs', get_template_directory_uri() . "/js/starter.js" , array('jquery') ) ;
+  
 }
 
 require('functions-commentform.php') ;
