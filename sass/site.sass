@@ -47,11 +47,12 @@ article
 /*******  Initialisation Ends.  ***************/
 /*******  On with the show!     ***************/
 
+
 /***********************/
 /*  frontpage header   */
 /***********************/
 
-#frontpage-header
+#page-header
   padding-top: 24px
   padding-bottom: 25px 
   background-color: #017cb0
@@ -103,18 +104,7 @@ article
 /*   page header           */
 /***************************/
 
-#page-header
-  background-color: #000
-  .logo
-    position: relative
-    position: relative
-    margin-right: auto
-    margin-left: auto
-    width: 100%
-    text-align: center
-    margin-bottom: 14px
-    img
-      height: 200px
+
 
 /*  header ends. now moar frontpage stuff  */
 
@@ -157,11 +147,12 @@ article
 #blog-latest
   padding-top: 14px
   padding-bottom: 14px
+  background-color: #c4c4c4
+  margin-bottom: 14px
   h2
     text-align: center
     margin-bottom: 14px
   article
-    background-color: #c4c4c4
     padding-top: 14px
     padding-bottom: 14px
     padding-left: 14px
@@ -287,8 +278,11 @@ article
 /*        single  and page                           */
 /*****************************************************/
   
-#page-single .post, #page-page .post
-  background-color: #bbd4de 
+#page-single .post
+  p
+    padding-bottom: 18px
+  p + p
+    text-indent: 2em
 
 #page-single .nav-single, body#page .nav-single
   border-radius: 4px
@@ -299,9 +293,13 @@ article
 
 /* nav for page pages and single pages  */
 .nav-single
+  margin-bottom: 28px
   h3
     font-size: 0.7em
-  margin-bottom: 28px
+
+/*****************************************************/
+/*        blog page                                  */
+/*****************************************************/
 
 
 /*****************************************************/
@@ -312,7 +310,7 @@ article
   background-color: #cafbca
   margin-bottom: 14px
   display: block
-
+ 
 #comments
   padding-top: 14px
   padding-bottom: 14px

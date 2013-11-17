@@ -8,7 +8,7 @@
 /* that are not the front page
 /*
  */?>
-<header id="frontpage-header">
+<header id="page-header">
   <section id="identity" class="delta">
     <div class="logo">
       <a href="#">

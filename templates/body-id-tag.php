@@ -18,6 +18,9 @@ if (is_front_page()) {
 elseif(is_page('news')) {
   echo "page-news" ;
 }
+elseif(is_page('blog')) {
+  echo "page-blog" ;
+}
 elseif(is_page('team')) {
   echo "page-team" ;
 }
