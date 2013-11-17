@@ -22,8 +22,6 @@
     </div>
   </section>  <!-- ENDS identity -->
 </header> <!-- ENDS #frontpage-header -->
-
-
 <div id="nav-toggle-container" class="mobile-only">
   <article id="menu-access">
     <a href="#" id="nav-toggle">Menu</a>

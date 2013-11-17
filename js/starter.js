@@ -1,12 +1,11 @@
 $(document).ready(function() {
 
-    // mobile nav    
-    $("#nav-toggle-container a").on('click', function(e) {
+    // mobile nav
+    var mobileNavContainer = $("#nav-toggle-container a") ;
+    mobileNavContainer.on('click', function(e) {
 	e.preventDefault() ;
 	$("#mobile-nav").slideDown() ;
-	
-	
+		
     });    
-
 
 });
