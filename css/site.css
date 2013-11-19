@@ -1455,14 +1455,33 @@ article {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000324}}
-header .mobile-nav-link {
+#mobile-nav header {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000326}}
+#mobile-nav header .close {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  height: 18px;
+  width: 18px;
+  background-image: url("../img/close.jpg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000333}}
+#mobile-nav header .close a {
+  display: block;
+  height: 18px;
+  width: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000337}}
+#mobile-nav header .mobile-nav-link {
   float: right;
   width: 22px;
   height: 22px;
   background-color: #4a9fae;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000344}}
 #mobile-nav {
   display: none;
   position: absolute;
@@ -1473,7 +1492,7 @@ header .mobile-nav-link {
   padding: 12px;
   width: 80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000353}}
 #mobile-nav header {
   border-top: 1px solid #337d8a;
   border-bottom: 1px solid #337d8a;
@@ -1481,7 +1500,7 @@ header .mobile-nav-link {
   padding-bottom: 16px;
   margin-bottom: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000359}}
 #mobile-nav h3 {
   font-size: 1em;
   font-weight: 700;
@@ -1489,15 +1508,15 @@ header .mobile-nav-link {
   padding: 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000365}}
 #mobile-nav ul {
   padding-bottom: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000367}}
 #mobile-nav ul li {
   padding-bottom: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000369}}
 #mobile-nav ul li a {
   color: white;
 }

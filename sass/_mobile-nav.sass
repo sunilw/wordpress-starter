@@ -21,11 +21,25 @@
   background-repeat: no-repeat
   background-position: 90% 50%
 
-header .mobile-nav-link
-  float: right
-  width: 22px
-  height: 22px
-  background-color: #4a9fae
+#mobile-nav header
+  position: relative
+  .close
+    position: absolute
+    right: 8px
+    top: 8px
+    height: 18px
+    width: 18px
+    background-image: url('../img/close.jpg')
+    a
+      display: block
+      height: 18px
+      width: 18px
+  .mobile-nav-link
+    float: right
+    width: 22px
+    height: 22px
+    background-color: #4a9fae
+
 
 #mobile-nav
   display: none
