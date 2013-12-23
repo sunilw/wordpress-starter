@@ -154,3 +154,10 @@ function wps_scripts()
 
 require('functions-commentform.php') ;
 require('functions-woocommerce.php') ;
+require('functions-metabox.php') ;
+
+function cmb_initialize_cmb_meta_boxes() {
+       
+  require_once 'init.php';
+
+}
