@@ -9,6 +9,17 @@
   <?php while ( have_posts() ) : the_post(); ?>
 
     <div class="content-and-commentary">
+
+      <h2>single video</h2>
+
+      <pre>
+	<?php 
+	
+	 print_r( get_post_meta( $post->ID ) ) ;
+	
+	?>
+      </pre>
+
       <?php get_template_part( 'content', get_post_format() ); ?>
 
       <?php starter_comment_form( '', true ); ?>
