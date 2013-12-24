@@ -32,7 +32,7 @@ function be_sample_metaboxes( $meta_boxes ) {
         'name'   =>   'video link',
         'desc'   =>   'youtube embed code',
         'id'     =>   $prefix . 'video_link',
-        'type'   =>   'text'
+        'type'   =>   'textarea_code'
       ),
 
       array(

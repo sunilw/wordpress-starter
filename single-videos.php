@@ -13,14 +13,31 @@
       <h2>single video</h2>
 
       <pre>
-	<?php 
-	
-	 print_r( get_post_meta( $post->ID ) ) ;
-	
+	<?php 	
+	 print_r( get_post_meta( $post->ID ) ) ;	
 	?>
       </pre>
 
       <?php get_template_part( 'content', get_post_format() ); ?>
+
+      <section class="video-link">
+	
+	<h2>In Video Link...</h2>
+	
+	<h3><?php echo get_post_meta( $post->ID, '_cmb_video_title', true )  ?></h3>
+
+        <div class="cover">
+          <a class="cover-link"
+	     href="#"
+	     >
+	  <img src="<?php echo get_post_meta($post->ID, '_cmb_video_cover', true)  ?>" 
+	       class="" 
+	       alt="" />
+	  </a>
+        </div>
+	
+      </section> <!-- ENDS .video-link -->
+
 
       <?php starter_comment_form( '', true ); ?>
       <?php
