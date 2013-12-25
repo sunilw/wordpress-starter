@@ -21,10 +21,14 @@ add_action("wp_enqueue_scripts", "cmb_modal_scripts") ;
 
 function cmb_modal_scripts()
 {
-  // add our own js
+  // add the jquery plugin, along with our script that uses it
 
-  wp_register_script('modaljs', get_template_directory_uri()  . "/js/jquery.simplemodal-1.4.4.js" , array('jquery') ) ;
-  wp_enqueue_script('modaljs', get_template_directory_uri() . "/js/jquery.simplemodal-1.4.4.js" , array('jquery') ) ;
+  wp_register_script('modaldep', get_template_directory_uri()  . "/js/jquery.simplemodal-1.4.4.js" , array('jquery') ) ;
+  wp_enqueue_script('modaldep', get_template_directory_uri() . "/js/jquery.simplemodal-1.4.4.js" , array('jquery') ) ;
+
+  wp_register_script('cmbmodal', get_template_directory_uri()  . "/js/cmbmodal.js" , array('jquery', 'modaldep') ) ;
+  wp_enqueue_script('cmbmodal', get_template_directory_uri() . "/js/cmbmodal.js" , array('jquery', 'modaldep') ) ;
+  
 } ;
 
 

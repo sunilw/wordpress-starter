@@ -14,16 +14,5 @@ $(document).ready(function() {
 	e.preventDefault() ;
 	mobileNavDisplay.slideUp() ;	
     });
-
-    // for testing video modal plugin
-    
-    $(".cover-link").on('click', function(e) {
-	
-	event.preventDefault() ;
-	
-	console.debug( "clicked the cover-link" );
-	
-    });
-
     
 });

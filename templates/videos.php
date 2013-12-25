@@ -75,19 +75,22 @@
       'post_type' => 'videos'      
     ) ;
 
-    $my_query = new WP_Query($args) ;
-    
-    ?>
-    <?php if ($my_query->have_posts()) : ?>
-      <section id="">
-	<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-	  <article class="">
+    $my_query = new WP_Query($args) ;  ?>
+    <?php if ($my_query->have_posts()) :    ?>
+      <?php $count = 1 ;  ?>
+      
+	<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>	 
+          <article id="modal-<?php echo $count ; $count++ ;   ?>"
+	    class="modal-window"
+	     > 
             <h3><?php echo  get_post_meta($post->ID, '_cmb_video_title', true) ?> </h3>
-            <p><?php  the_excerpt(); ?></p>
-	    <p><a href="<?php echo get_permalink()  ?>">read more</a></p>
-	  </article>
+            <div>
+	      <?php echo   get_post_meta($post->ID, '_cmb_video_link', true)  ?>
+            </div>
+	    
+          </article>	    
 	<?php endwhile; ?>
-      </section> <!-- ENDS #...  -->
+	
     <?php endif; ?>
 
   </div>  <!-- ENDS.modal-link-container -->
