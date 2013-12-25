@@ -59,7 +59,7 @@ table {
   border-spacing: 0;
 }
 
-/*
+/*!
  *
  .||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||.
 
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/typeplate\/_typeplate\.scss}line{font-family:\00003628}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/typeplate\/_typeplate\.scss}line{font-family:\00003640}}
 abbr,
 acronym,
 blockquote,
@@ -269,14 +269,14 @@ abbr {
   font-variant: small-caps;
   font-weight: 400;
   text-transform: lowercase;
-  color: grey;
+  color: gray;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/typeplate\/_typeplate\.scss}line{font-family:\00003675}}
 abbr[title]:hover {
   cursor: help;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/typeplate\/_typeplate\.scss}line{font-family:\00003684}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/typeplate\/_typeplate\.scss}line{font-family:\00003689}}
 h1,
 h2,
 h3,
@@ -316,7 +316,7 @@ p + .drop-cap {
  * Extend this object into your markup.
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/typeplate\/_typeplate\.scss}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/typeplate\/_typeplate\.scss}line{font-family:\00003458}}
 .lining dt,
 .lining dd {
   display: inline;
@@ -403,7 +403,7 @@ p + .drop-cap {
   position: relative;
   padding: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/typeplate\/_typeplate\.scss}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/typeplate\/_typeplate\.scss}line{font-family:\00003360}}
 .pull-quote:before, .pull-quote:after {
   height: 1em;
   opacity: 0.5;
@@ -1481,7 +1481,7 @@ article {
   background-color: #4a9fae;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000343}}
 #mobile-nav {
   display: none;
   position: absolute;
@@ -1492,7 +1492,7 @@ article {
   padding: 12px;
   width: 80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000352}}
 #mobile-nav header {
   border-top: 1px solid #337d8a;
   border-bottom: 1px solid #337d8a;
@@ -1500,7 +1500,7 @@ article {
   padding-bottom: 16px;
   margin-bottom: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000358}}
 #mobile-nav h3 {
   font-size: 1em;
   font-weight: 700;
@@ -1508,15 +1508,15 @@ article {
   padding: 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000364}}
 #mobile-nav ul {
   padding-bottom: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000366}}
 #mobile-nav ul li {
   padding-bottom: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/_mobile-nav\.sass}line{font-family:\0000368}}
 #mobile-nav ul li a {
   color: white;
 }
@@ -1531,7 +1531,7 @@ article {
   overflow: hidden;
   max-width: 94%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000318}}
 .outer-container:before, .outer-container:after {
   content: " ";
   display: table;
@@ -1550,7 +1550,7 @@ article {
 #page-header {
   padding-top: 24px;
   padding-bottom: 25px;
-  background-color: #017cb0;
+  background-color: #cfcfcf;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\0000359}}
 #page-header .logo {
@@ -1784,7 +1784,7 @@ article {
   margin-left: auto;
   margin-right: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000318}}
 #page-footer .footer-content:before, #page-footer .footer-content:after {
   content: " ";
   display: table;
@@ -2025,7 +2025,7 @@ article {
   margin-right: auto;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000318}}
 .product:before, .product:after {
   content: " ";
   display: table;
@@ -2072,6 +2072,19 @@ article {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/site\.sass}line{font-family:\00003354}}
 .woocommerce-tabs .tabs li a {
   text-decoration: none;
+}
+
+/* stylings for videos & modals  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/videos\.sass}line{font-family:\000033}}
+#video-link-container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #acb8d5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/videos\.sass}line{font-family:\000038}}
+#modal-link-container {
+  display: none;
 }
 
 /*************************************************** */
@@ -2158,7 +2171,7 @@ article {
     margin-left: auto;
     margin-right: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000318}}
   #blog-latest:before, #blog-latest:after {
     content: " ";
     display: table;
@@ -2192,7 +2205,7 @@ article {
     margin-left: auto;
     margin-right: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000318}}
   #features:before, #features:after {
     content: " ";
     display: table;

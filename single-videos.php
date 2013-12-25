@@ -20,10 +20,8 @@
 
       <?php get_template_part( 'content', get_post_format() ); ?>
 
-      <section class="video-link">
-	
-	<h2>In Video Link...</h2>
-	
+      <section class="video-link">	
+	<h2>In Video Link...</h2>		
 	<h3><?php echo get_post_meta( $post->ID, '_cmb_video_title', true )  ?></h3>
 
         <div class="cover">
@@ -34,7 +32,7 @@
 	       class="" 
 	       alt="" />
 	  </a>
-        </div>
+        </div> <!-- ENDS .cover -->
 	
       </section> <!-- ENDS .video-link -->
 

@@ -16,7 +16,7 @@ function be_sample_metaboxes( $meta_boxes ) {
   $meta_boxes[] = array(
     'id' => 'test_metabox',
     'title' => 'Video Modal Details',
-    'pages' => array('videos'), // post type
+    'pages' => array('page', 'videos', 'post'), // post type
     'context' => 'normal',
     'priority' => 'high',
     'show_names' => true, // Show field names on the left

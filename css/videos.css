@@ -1,0 +1,12 @@
+/* stylings for videos & modals  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/videos\.sass}line{font-family:\000033}}
+#video-link-container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #acb8d5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/videos\.sass}line{font-family:\000038}}
+#modal-link-container {
+  display: none;
+}
