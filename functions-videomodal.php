@@ -31,11 +31,6 @@ function cmb_modal_scripts()
   
 } ;
 
-
-// and the cmb library
-
-
-
 ?>
 
 <?php

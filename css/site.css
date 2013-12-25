@@ -2074,28 +2074,6 @@ article {
   text-decoration: none;
 }
 
-/* stylings for videos & modals  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/videos\.sass}line{font-family:\000033}}
-#video-link-container {
-  padding-top: 48px;
-  padding-bottom: 48px;
-  background-color: #acb8d5;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/videos\.sass}line{font-family:\000038}}
-.modal-window {
-  display: none;
-  box-sizing: border-box;
-  background-color: #363636;
-  border: 2px solid #d4d4d4;
-  border-radius: 3px;
-  padding: 12px 12px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp2\/wp-content\/themes\/starter\/sass\/videos\.sass}line{font-family:\0000315}}
-.modal-window h3 {
-  color: white;
-}
-
 /*************************************************** */
 /*   media query extentions begin below...           */
 /*************************************************** */
