@@ -154,7 +154,4 @@ function wps_scripts()
 
 
 require('functions-commentform.php') ;
-require('functions-videos.php') ;
-
 require('functions-woocommerce.php') ;
-require('functions-videomodal.php') ;

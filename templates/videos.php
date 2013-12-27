@@ -35,9 +35,7 @@
       'posts_per_page' => 10
     ) ;
     $my_query = new WP_Query($args) ;
-    ?>
-
-    <?php
+   
 
     if ($my_query->have_posts()) : ?>
     <?php $count = 1  ?>

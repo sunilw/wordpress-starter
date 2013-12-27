@@ -11,10 +11,6 @@
     <div class="content-and-commentary">
       <?php get_template_part( 'content', get_post_format() ); ?>
 
-      <?php starter_comment_form( '', true ); ?>
-      <?php
-      comments_template()  ;
-      ?>
     </div> <!-- .content-and-sidebar ends -->
 
   <?php endwhile; // end of the loop. ?>
