@@ -149,6 +149,7 @@ function wps_scripts()
   // add our own js 
   wp_register_script('starterjs', get_template_directory_uri() . "/js/starter.js" , array('jquery') ) ;
   wp_enqueue_script('starterjs', get_template_directory_uri() . "/js/starter.js" , array('jquery') ) ;
+ 
   
 }
 
