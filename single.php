@@ -17,7 +17,7 @@
       get_template_part( 'content', get_post_format() ) ;
 
       // echo the comment form
-      starter_comment_form( '', true );
+      starter_comment_form( '', $page_query->post->ID );
 
       comments_template() ;
       
