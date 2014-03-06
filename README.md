@@ -11,15 +11,14 @@ Barebones theme, from which to develop client sites.
 Notes
 =======
 
-In progress starter theme.
+This theme is under heavy development.
 
 Grunt tasks set up to speed up style development:
 Default Grunt task will run compass in watch mode, and is configured
 to generate debugging symbols. Upon update, livereload can refresh the
 page.
 
-For viewing sass debug symbols in chrome: 
-https://github.com/tinganho/SASS-Inspector
+
 
 The watch task is cool: It will watch for changes in your css and php.
 When it sees them, it signals an update. This update can be caught by
@@ -50,4 +49,12 @@ http://gruntjs.com
 license
 ========
 
+php in this repo touches the wordpress api. 
+So they are are under GPL
 http://wordpress.org/about/gpl/
+
+Sass/css authored by me in this repo are under GPLv2
+
+Sass not authored by me in this repo includes bourbon, and neat.
+These are under the MIT License
+https://github.com/thoughtbot/bourbon/blob/master/LICENSE
