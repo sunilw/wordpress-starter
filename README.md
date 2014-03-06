@@ -46,3 +46,8 @@ Grunt requires node and npm.
 Figuring out how to set that stuff up is kinda challenging.
 
 http://gruntjs.com
+
+license
+========
+
+http://wordpress.org/about/gpl/
