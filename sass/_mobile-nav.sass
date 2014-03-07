@@ -1,10 +1,10 @@
 /* mobile nav link */
 #nav-toggle-container 
   position: absolute
-  top: 0
+  top: 4px
   right: 1%
   width: 140px
-  background-color: #4a9fae
+  background-color: #115cb1 
   -webkit-border-radius: 3px
   -moz-border-radius: 3px
   border-radius: 3px
@@ -21,19 +21,25 @@
   background-repeat: no-repeat
   background-position: 90% 50%
 
-#mobile-nav header
+#mobile-nav .header
   position: relative
+  margin-bottom: 14px
+  h3
+    text-shadow: none
   .close
     position: absolute
     right: 8px
-    top: 8px
+    top: 0px
+    height: 18px !important
+    width: 18px  !important
+  a
+    display: block
     height: 18px
     width: 18px
-    background-image: url('../img/close.jpg')
-    a
-      display: block
-      height: 18px
+    text-decoration: none
+    img
       width: 18px
+      height: 18px
   .mobile-nav-link
     float: right
     width: 22px
@@ -43,8 +49,9 @@
 #mobile-nav
   display: none
   position: absolute
+  top: 24px
   right: 2%
-  background-color: rgb(74, 159, 174)
+  background-color: #115cb1 
   border: 1px solid #3b8b9a
   z-index: 500
   padding: 12px
@@ -61,9 +68,32 @@
     margin: 0
     padding: 0
     text-align: center
+    color: #fff
   ul
     padding-bottom: 6px
     li
       padding-bottom: 6px
+      margin-bottom: 8px
+      border-bottom: 1px dashed #8bc2d8
       a
         color: #fff
+        text-decoration: none
+        font-size: 16px
+        line-height: 1.4
+        padding-top: 8px
+        padding-bottom: 8px
+
+
+#mobile-nav ul.children
+  margin-top: 0
+    
+#mobile-nav .children
+  padding-left: 12px
+  li
+    display: block    
+    padding-top: 8px
+    padding-bottom: 8px
+    
+#mobile-nav ul ul.submenu
+  li
+    padding-left: 10px

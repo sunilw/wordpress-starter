@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/
  * v2.0 | 20110126
  * License: none (public domain) */
-/* line 5, ../sass/reset.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp4\/wp-content\/themes\/wordpress-starter\/sass\/reset\.sass}line{font-family:\000035}}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,35 +24,35 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 26, ../sass/reset.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp4\/wp-content\/themes\/wordpress-starter\/sass\/reset\.sass}line{font-family:\0000326}}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 30, ../sass/reset.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp4\/wp-content\/themes\/wordpress-starter\/sass\/reset\.sass}line{font-family:\0000330}}
 body {
   line-height: 1;
 }
 
-/* line 33, ../sass/reset.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp4\/wp-content\/themes\/wordpress-starter\/sass\/reset\.sass}line{font-family:\0000333}}
 ol, ul {
   list-style: none;
 }
 
-/* line 36, ../sass/reset.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp4\/wp-content\/themes\/wordpress-starter\/sass\/reset\.sass}line{font-family:\0000336}}
 blockquote, q {
   quotes: none;
 }
 
-/* line 39, ../sass/reset.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp4\/wp-content\/themes\/wordpress-starter\/sass\/reset\.sass}line{font-family:\0000339}}
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
   content: none;
 }
 
-/* line 44, ../sass/reset.sass */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/wp4\/wp-content\/themes\/wordpress-starter\/sass\/reset\.sass}line{font-family:\0000344}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
