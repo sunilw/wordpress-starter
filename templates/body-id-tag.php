@@ -12,42 +12,47 @@
 ?><?php
 // give our body tag target properties
 // depending on which page is being served
+
+$tags = array() ;
+
 if (is_front_page()) {
-  echo "homepage" ;
+  array_push($tags, "homepage") ;
 }
 elseif(is_page('news')) {
-  echo "page-news" ;
+  array_push($tags, "page-news") ;
 }
 elseif(is_page('blog')) {
-  echo "page-blog" ;
+ array_push($tags, "blog") ;
 }
 elseif(is_page('team')) {
-  echo "page-team" ;
+  array_push($tags, "team") ;
 }
 elseif(is_page('contact')) {
-  echo "page-contact" ;
+ array_push($tats, "contact") ;
 }
 elseif(is_archive()) {
-  echo "page-archive" ;
+  array_push($tags, "page-archive") ;
 }
 elseif(is_search()){
-  echo "search-page" ;
+  array_push($tags, "search_page") ;
 }
 elseif(is_404()) {
-  echo "page-404" ;
+  array_push($tags, "404") ;
 }
 elseif ( function_exists( is_product )) { /* for woocommerce */
   if(is_product()) {
-    echo "page-product" ;
+    array_push($tags, "page-product") ;
   }
 }
 elseif(is_single()) {
-  echo "page-single" ;
+  array_push($tags, "page-single") ;
 }
 elseif (is_category()) {
-  echo "category-page" ;
+  array_push($tags, "category-page") ;
 }
 
 else {
-  echo "page" ;
+ array_push($tags, "page") ;
 }
+
+echo( join(" ", $tags) ) ;
