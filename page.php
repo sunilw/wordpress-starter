@@ -1,27 +1,4 @@
-<?php
-/**
- * The Template for displaying all single posts.
- *
- */
-?>
-<div class="outer-container group">
-
-  <?php while ( have_posts() ) : the_post(); ?>
-
-    <div class="content-and-commentary">
-      <?php get_template_part( 'content', get_post_format() ); ?>
-
-    </div> <!-- .content-and-sidebar ends -->
-
-  <?php endwhile; // end of the loop. ?>
-
-
-  <?php
-  // if the sidebar has widgets active
-  // if true, then show the sidebar
-  if (is_dynamic_sidebar('home_right_1')) { ?>
-  <aside class="sidebar">
-    <?php dynamic_sidebar('home_right_1') ;  ?>
-  </aside><!-- ENDS .sidebar -->
-  <?php   }  ?>
-</div> <!-- ENDS .outer-container -->
+<?php while (have_posts()) : the_post(); ?>
+  <?php get_template_part('templates/page', 'header'); ?>
+  <?php get_template_part('templates/content', 'page'); ?>
+<?php endwhile; ?>
