@@ -1,5 +1,5 @@
 <div class="page-header">
   <h1>
-    <?php echo roots_title(); ?>
+      in page header
   </h1>
 </div>
