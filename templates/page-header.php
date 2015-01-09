@@ -1,5 +1,7 @@
 <div class="page-header">
-  <h1>
-      in page header
-  </h1>
+    <div class="container">
+        <h1>
+            in page header
+        </h1>
+    </div>  <!-- ENDS .container --> 
 </div>
