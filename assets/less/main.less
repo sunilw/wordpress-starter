@@ -18,3 +18,22 @@
 @import "layouts/_pages";            // Page styling
 @import "layouts/pages/_home";       // Home page styling
 @import "layouts/_posts";            // Post styling
+
+//  Lets not touch anything that comes before this line. Let's give ourselves the option to update the libraries
+//  Our own stylings should begin here
+
+// The exception is that the 'main' element has had it's name and styling definition changed
+// Because 'main' should be used to match the w3c definition.
+// I've replaced 'main' with 'page-container'
+// Thing is, currently I can't remember which less file I edited to make that alteration. Sorry
+
+@import "_wp_start_defaults" ;
+
+// iphone landscape 
+@import "_wp_480" ;
+
+// ipad portrait
+@import "_wp_768" ;
+
+// breakpoint for 980px width
+@import "_wp_980" ;
