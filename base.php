@@ -12,7 +12,7 @@
     get_template_part('templates/header');
   ?>
 <div class="page-row page-row-expanded">
-  <div class="wrap container-fluid" role="document">
+  <div class="wrap" role="document">
       <div class="content">
 	  
       <div class="page-container" role="main">
