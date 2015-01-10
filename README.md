@@ -24,7 +24,21 @@ Provided by Roots boilerplate:
 
 Presently I've simply altered a little of the scaffolding to suit my purposes, also adding some starting templating and less structure of my own.
 
-### Additional features
+### Sunils additions
+
+I like to seperate out less files and import them based on a "mobile first" approach.
+I import in this order:
+
+_wp_start_defaults.less
+_wp_480.less
+_wp_768.less
+_wp_980.less
+
+File for google fonts:
+Select fonts from google. Then get googles stylesheet and copy it into this file:
+_wp_fonts.less
+
+### Roots additional features
 
 Install the [Soil](https://github.com/roots/soil) plugin to enable additional features:
 
