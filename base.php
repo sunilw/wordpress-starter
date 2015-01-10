@@ -13,7 +13,7 @@
   ?>
 <div class="page-row page-row-expanded">
   <div class="wrap container-fluid" role="document">
-      <div class="content row">
+      <div class="content">
 	  
       <div class="page-container" role="main">
         <?php include roots_template_path(); ?>

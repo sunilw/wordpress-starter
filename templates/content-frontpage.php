@@ -1,4 +1,6 @@
+<?php
+// content for the front page
+?>
 <div class="container-fluid">
-<?php the_content(); ?>
-    <?php wp_link_pages(array('before' => '<nav class="pagination">', 'after' => '</nav>')); ?>
+    <h2> Content for frontpage</h2>
 </div>
