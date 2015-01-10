@@ -19,11 +19,11 @@
         <?php include roots_template_path(); ?>
       </div><!-- ENDS .page-container -->
       
-      <?php if (roots_display_sidebar()) : ?>
-        <aside class="sidebar" role="complementary">
-          <?php include roots_sidebar_path(); ?>
+      <?php // if (roots_display_sidebar()) : ?>
+      <?php     // <aside class="sidebar" role="complementary">	  ?>
+          <?php // include roots_sidebar_path(); ?>
         </aside><!-- /.sidebar -->
-      <?php endif; ?>
+      <?php // endif; ?>
     </div><!-- /.content -->
   </div><!-- /.wrap -->
 </div>
