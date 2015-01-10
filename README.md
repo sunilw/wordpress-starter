@@ -1,16 +1,11 @@
-# [Roots Starter Theme](http://roots.io/)
-[![devDependency Status](https://david-dm.org/roots/roots/dev-status.svg)](https://david-dm.org/roots/roots#info=devDependencies)
+# Sitecraft Starter Theme
 
-Roots is a WordPress starter theme based on [HTML5 Boilerplate](http://html5boilerplate.com/) & [Bootstrap](http://getbootstrap.com/) that will help you make better themes.
-
-* Source: [https://github.com/roots/roots](https://github.com/roots/roots)
-* Homepage: [http://roots.io/](http://roots.io/)
-* Documentation: [http://roots.io/docs/](http://roots.io/docs/)
-* Twitter: [@rootswp](https://twitter.com/rootswp), [@retlehs](https://twitter.com/retlehs), [@swalkinshaw](https://twitter.com/swalkinshaw), [@Foxaii](https://twitter.com/Foxaii), [@c2foryou](https://twitter.com/c2foryou)
-* Newsletter: [Subscribe](http://roots.io/subscribe/)
-* Forum: [http://discourse.roots.io/](http://discourse.roots.io/)
+Derived (ie, mostly completely ripped) from [http://roots.io]Roots 
+Most of the following documentation is copied verbatim from the Roots readme
 
 ## Features
+
+Provided by Roots boilerplate:
 
 * [Grunt](http://roots.io/using-grunt-for-wordpress-theme-development/) for compiling LESS to CSS, checking for JS errors, live reloading, concatenating and minifying files, versioning assets, and generating lean Modernizr builds
 * [Bower](http://bower.io/) for front-end package management
@@ -26,6 +21,8 @@ Roots is a WordPress starter theme based on [HTML5 Boilerplate](http://html5boil
 * Cleaner HTML output of navigation menus
 * Posts use the [hNews](http://microformats.org/wiki/hnews) microformat
 * [Multilingual ready](http://roots.io/wpml/) and over 30 available [community translations](https://github.com/roots/roots-translations)
+
+Presently I've simply altered a little of the scaffolding to suit my purposes, also adding some starting templating and less structure of my own.
 
 ### Additional features
 
@@ -92,14 +89,10 @@ We also advise against running as root user. NPM deliberately uses limited privi
 
 ## Contributing
 
-Everyone is welcome to help [contribute](CONTRIBUTING.md) and improve this project. There are several ways you can contribute:
-
-* Reporting issues (please read [issue guidelines](https://github.com/necolas/issue-guidelines))
-* Suggesting new features
-* Writing or refactoring code
-* Fixing [issues](https://github.com/roots/roots/issues)
-* Replying to questions on the [forum](http://discourse.roots.io/)
+For most structural stuff, contributions to the actual Roots or Bedrock source might be more valuable.
+Otherwise, I'm happy to take all contributions and feedback.
 
 ## Support
 
-Use the [Roots Discourse](http://discourse.roots.io/) to ask questions and get support.
+Consider that the issue you are identifying might be related to Roots rather then my addition.
+However, if you are certain that your issue is related to my own extension then create issues in this projects github repo.
