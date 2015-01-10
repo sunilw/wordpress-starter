@@ -1,3 +1,4 @@
+<div class="page-row">
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
   <div class="container">
     <div class="navbar-header">
@@ -19,3 +20,4 @@
     </nav>
   </div>
 </header>
+</div>
