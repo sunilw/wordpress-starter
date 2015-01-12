@@ -12,10 +12,10 @@
     get_template_part('templates/header');
   ?>
 <div class="page-row page-row-expanded">
-  <div class="wrap" role="document">
-      <div class="content">
+  <div class="wrap group" role="document">
+
 	  
-      <div class="page-container" role="main">
+      <div class="" role="main">
         <?php include roots_template_path(); ?>
       </div><!-- ENDS .page-container -->
       
@@ -24,7 +24,7 @@
           <?php // include roots_sidebar_path(); ?>
         </aside><!-- /.sidebar -->
       <?php // endif; ?>
-    </div><!-- /.content -->
+
   </div><!-- /.wrap -->
 </div>
 

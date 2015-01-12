@@ -1,4 +1,17 @@
 <div class="container-fluid">
-<?php the_content(); ?>
-    <?php wp_link_pages(array('before' => '<nav class="pagination">', 'after' => '</nav>')); ?>
-</div>
+
+    <div class="row">
+
+        <div class="post-meta">
+            <span class="col-md-6"></span>
+        </div>
+
+    </div> <!-- ENDS .row -->
+
+    <div class="row">
+        <div class="col-xs-12 main-content">
+	    <?php the_content(); ?>
+	</div>
+    </div>
+    
+</div> <!-- ENDS .container-fluid -->
